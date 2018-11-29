@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+body{
+  background-image:url("./image/blue2.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.logo> p {
+ color:white;
+ text-shadow: 3px 3px 3px black;
+}
+
+.pagetitle {
+  font-size: 50px;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+.row h3{
+  text-align: center;
+  background-color: #1f567c;
+  border: solid white;
+  width:45%;
+  color: white;
+  border-radius: .3em;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f567c;
+  border: solid white;
+  border-radius: 1em;
+  display: inline-flex;
+  width: 100%;
+  box-shadow: 3px 3px 3px black;
+}
+
+nav ul li a {
+  border-radius: 15px;
+  color: white;
+  border-color: white;
+}
+nav ul li a:hover {
+  border-radius: 15px;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+  background-color: #001942;
+}
+#last {
+margin-left: auto;
+display: inline-flex;
+align-items: flex-start;
+padding-top: 20px;
+}
+#last>input{
+  margin-right: 1em;
+}
+
+
+nav li a {
+  border: solid;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: .3em padding: 5px;
+}
+
+nav li a:hover:not(.active) {
+
+    background-color: #001942;
+}
+
+.active {
+  background-color: blue;
+}
+
+
+//////////////////////////////
+
+
+
+#radarLogo {
+  text-align: center;
+  border: solid white;
+  width:45%;
+  color: white;
+  border-radius: .3em;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+
+.body {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.meteo{
+  border:none;
+}
+
+.meteo >img{
+height:90%;
+width:100%;
+position: relative;
+margin-left: 15;
+top: -20px;
+box-shadow: 5px 5px 5px black;
+border: solid white;
+border-radius: .3em;
+}
+
+.metcon{
+  border:none;
+  color: white;
+
+}
+
+.meteo1>h2{
+  font-size: 30px;
+  background-color: #1f567c;
+}
+.meteo1{
+  border-radius: .5em;
+  border: solid;
+  background-color: #1f567c;
+  box-shadow: 5px 5px 5px black;
+}
+
+.meteo1 >img{
+  float:right;
+  height: 80px;
+  width: 80px;
+  position: relative;
+
+
+}
+aside {
+  align-content: center;
+  border:none;
+
+}
+
+aside>div>img {
+  width: 90%;
+  height: 90%;
+  box-shadow: 5px 5px 5px black;
+  border: solid white;
+  border-radius: .3em;
+
+}
+aside>div>p {
+color:white;
+text-shadow: 2px 2px 2px black;
+
+}
+
+.container{
+  color:white;
+display:flex;
+align-items: center;
+margin-left: 150px;
+}
+.card{
+  box-shadow: 3px 3px 3px black;
+  background-color: #1f567c;
+  border-color: white;
+}
+
+.card-img-top{
+  margin-left: -0px;
+}
+
+footer{
+  border: solid white;
+  border-radius: .5em;
+  background-color:#1f567c;
+  text-align: center;
+  color:white;
+
+}
+
+.social > a > img{
+  height: 45px;
+  width: auto;
+}
+.copyright{
+margin: 30px;
+}

@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+body{
+  background-image:url("./image/blue2.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.logo> p {
+ color:white;
+ text-shadow: 3px 3px 3px black;
+}
+
+.pagetitle {
+  font-size: 50px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #007bff;
+  border: solid white;
+  border-radius: 1em;
+  display: inline-flex;
+  width: 100%;
+  box-shadow: 3px 3px 3px black;
+}
+
+nav ul li a {
+  border-radius: 15px;
+  color: white;
+  border-color: white;
+}
+nav ul li a:hover {
+  border-radius: 15px;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+  background-color: #001942;
+}
+#last {
+margin-left: auto;
+display: inline-flex;
+align-items: flex-start;
+padding-top: 20px;
+}
+#last>input{
+  margin-right: 1em;
+}
+
+
+nav li a {
+  border: solid;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: .3em padding: 5px;
+}
+
+nav li a:hover:not(.active) {
+
+    background-color: #001942;
+}
+
+.active {
+  background-color: grey;
+}
+
+.nom{
+  border: solid white;
+  border-radius: .2em;
+  background-color: #007bff;
+  font-size: 30px;
+  color: white;
+  width:40%;
+  box-shadow: 2px 2px 2px black;
+}
+.nom2{
+  border: solid white;
+  border-radius: .2em;
+  background-color: #007bff;
+  font-size: 30px;
+  color: white;
+  width:30%;
+}
+
+.nom3{
+  border: solid white;
+  border-radius: .2em;
+  background-color: #007bff;
+  font-size: 20px;
+  color: white;
+  width:40%;
+  text-align: center;
+}
+.info{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+img{
+  border: solid white;
+  box-shadow: 5px 5px 5px black;
+}
+.card-img-top{
+  margin-left: -0px;
+}
+
+footer{
+  border: solid white;
+  border-radius: .5em;
+  background-color:#007bff;
+  text-align: center;
+  color:white;
+
+}
+
+.social > a > img{
+  height: 45px;
+  width: auto;
+}
+.copyright{
+margin: 30px;
+}
